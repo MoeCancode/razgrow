@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
-import HeroSection from "./Components/HeroSection"
+import TikTok from "./Components/TikTok";
+import Insta from "./Components/Insta";
 
 function App() {
 
@@ -14,11 +15,11 @@ function pageHandler(thePage) {
 const renderPage = () => {
   switch(page){
     case("tiktok"):
-      return <HeroSection/>;
+      return <TikTok/>;
     case('instagram'):
-      return <HeroSection />;
+      return <Insta/>;
     default:
-      return <HeroSection />;
+      return <TikTok/>;
   }
 }
 
@@ -28,7 +29,7 @@ const renderPage = () => {
       currentPage = {page}
       handlePageChange = {pageHandler}/>
 
-      {renderPage}
+      {renderPage()}
     </div>
   );
 }

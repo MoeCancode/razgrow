@@ -43,7 +43,7 @@ const Navbar = ({currentPage, handlePageChange}) => {
     </ul>
   </div>
   <div className="navbar-end">
-    <button className="btn">Get started</button>
+    <button className="btn bg-red-700">Get started</button>
   </div>
 </div>
   )
