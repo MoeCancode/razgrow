@@ -16,7 +16,28 @@ const InstaLikes = () => {
       </div>
    <div className="flex flex-row bg-[#171717] pb-10">
    
-   <div class="card w-96 bg-base-100 shadow-xl">
+   <div className="card w-96 bg-base-100 shadow-xl mx-1">
+  <figure><img src={require(`../assets/500.gif`)} alt="Shoes" /></figure>
+  <div className="card-body">
+    <h2 className="card-title justify-center items-center">
+      <div className="text-[30px] text-[#e737d5] text-bold">$6</div>
+    </h2>
+    <h2 className="card-title">
+      500 Likes
+      <div className="badge badge-secondary">NEW</div>
+    </h2>
+    <p >💎 Instant Delivery</p>
+    <p >💎 60-Day Guarantee</p>
+    <p >💎 No Password Required</p>
+    <p >💎 No Hidden Charges</p>
+    <div className="card-actions justify-end my-5">
+      <div className="badge badge-outline">Add to Cart</div> 
+      <div className="badge badge-outline">Buy Now</div>
+    </div>
+  </div>
+</div>
+
+<div class="card w-96 bg-base-100 shadow-xl">
   <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title">

@@ -19,7 +19,7 @@ const Navbar = ({currentPage, handlePageChange}) => {
             </button></li>
         
         <li><button
-        className={currentPage === "instagram" ? "bg-orange-700" : ""} 
+        className={currentPage === "instagram" ? "bg-[#9f1f93]" : ""} 
         onClick={() => handlePageChange("instagram")}>
             Instagram
             </button></li>
@@ -36,7 +36,7 @@ const Navbar = ({currentPage, handlePageChange}) => {
         </button></li>
       
       <li><button 
-      className={currentPage === "instagram" ? "bg-orange-700" : ""}
+      className={currentPage === "instagram" ? "bg-[#9f1f93]" : ""}
       onClick={() => handlePageChange("instagram")}>
         Instagram
         </button></li>
